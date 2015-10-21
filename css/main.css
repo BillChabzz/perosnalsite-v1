@@ -21,7 +21,7 @@ header{
     position: relative;
     z-index: 1;
     width: 100%;
-    margin-bottom: 60px;
+
 }
 section{
     display: block;
@@ -47,7 +47,7 @@ section{
 }
 .logo:hover {
     cursor: pointer;
-	color: #F4A460;
+	color: #800000;
 }
 .left {
     float: left;
@@ -68,9 +68,10 @@ section{
 
 .card li {
 	display: inline-block;
-	width: 440px;
+	width: 540px;
 	margin: 0;
 	padding: 20px;
+    padding-bottom: 30px;
 	text-align: left;
 	position: relative;
 }
@@ -84,14 +85,15 @@ section{
 	position: relative;
 }
 .card figcaption {
+    width: 540px;
 	position: absolute;
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background:#3a3a38;
+	background:#800;
 	color: #fff;
 }
-.grid figcaption h3 {
+.card figcaption h3 {
 	margin: 0;
 	padding: 0;
 	color: #fff;
@@ -108,8 +110,8 @@ section{
 	border-radius: 1px;
     border: 1px solid gray;
 	display: inline-block;
-	background: transparent;
-	color: #fff;
+	background: #fff;
+	color: #000;
 }
 /*card hovers*/
 .style figcaption{
@@ -129,14 +131,18 @@ section{
 }
 .style figcaption span{
     display: block;
+    color: ;
 }
 .style figcaption a{
     margin-top: 30px;
-    transition: background .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .style figcaption a:hover{
-    background: #F4A460;
-    color: #000;
+    background: #330000;
+    color: #fff;
 
 }
 /*id's styles*/
+#about {
+	padding-top: 60px;
+}
