@@ -88,8 +88,8 @@ section{
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: rgba(245,245,220);
-	color: #F4A460;
+	background:#3a3a38;
+	color: #fff;
 }
 .grid figcaption h3 {
 	margin: 0;
@@ -97,16 +97,46 @@ section{
 	color: #fff;
 }
 
-.grid figcaption span:before {
+.card figcaption span:before {
 	content: 'by ';
+    color: #000;
 }
 
-.grid figcaption a {
+.card figcaption a {
 	text-align: center;
 	padding: 5px 10px;
-	border-radius: 2px;
+	border-radius: 1px;
+    border: 1px solid gray;
 	display: inline-block;
-	background: #ed4e6e;
+	background: transparent;
 	color: #fff;
+}
+/*card hovers*/
+.style figcaption{
+	height: 100%;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    backface-visibility: hidden;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.style figcaption:hover{
+    opacity: 1;
+    transform: translateY(-100px);
+}
+.style figcaption h3{
+    margin-top: 70px;
+}
+.style figcaption span{
+    display: block;
+}
+.style figcaption a{
+    margin-top: 30px;
+    transition: background .3s ease-in-out;
+}
+.style figcaption a:hover{
+    background: #F4A460;
+    color: #000;
+
 }
 /*id's styles*/
