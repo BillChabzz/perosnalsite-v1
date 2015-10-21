@@ -27,7 +27,34 @@ section{
     display: block;
     height: 100%;
 }
-/*classes and header sections*/
+/*classes*/
+/*hero area classes and id's*/
+.introduction {
+    text-align: center;
+    width: 960px;
+    position: absolute;
+
+
+}
+.introduction .style-it {
+
+}
+.intro-txt {
+	position: relative;
+
+}
+.intro-txt .slide .inactive {
+	opacity: 0;
+}
+.intro-txt .slide p{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* header sections*/
  .header-ctn {
     z-index: 1;
     border-bottom: 1px solid rgba(220,220,198,0.5);
@@ -144,6 +171,7 @@ section{
 }
 /*id's styles*/
 #hero {
+    max-width: 1400px;
 	padding-top: 60px;
 }
 #about {
