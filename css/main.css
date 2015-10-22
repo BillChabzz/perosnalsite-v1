@@ -34,6 +34,9 @@ section{
     display: block;
     height: 100%;
 }
+hr{
+    border: 1px solid #200;
+}
 footer{
     padding-top: 30px;
     margin-bottom: 0;
@@ -44,6 +47,9 @@ footer{
 }
 /*classes*/
 /*hero area classes and id's*/
+.arc > span{
+    font-size: 3em;
+}
 .introduction {
     color: #fff;
 	position: relative;
@@ -212,6 +218,9 @@ footer{
     height: 934.5px;
     background:#200 ;
 	padding-top: 60px;
+}
+#work {
+	padding-top: 50px;
 }
 #about {
     text-align: center;
