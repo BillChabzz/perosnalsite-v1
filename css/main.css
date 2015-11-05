@@ -71,6 +71,7 @@ footer{
 }
 .projo {
 	margin-top: 400px;
+    margin-bottom: 90px;
 }
 #hero a {
     text-decoration: none;
@@ -217,7 +218,7 @@ footer{
 }
 /*id's styles*/
 #hero {
-    height: 934.5px;
+    background-size: cover;
     background:#200 ;
 	padding-top: 60px;
 }
